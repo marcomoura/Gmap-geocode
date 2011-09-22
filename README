@@ -1,0 +1,13 @@
+
+
+
+
+
+
+To auto run phpunit
+
+Use the ruby gem Watchr 
+
+# watchr .watchr.rb
+
+
