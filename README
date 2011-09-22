@@ -1,13 +1,26 @@
 Busca um endereço no Google Maps e retorna o geocode e um parser do endereço consultado
 
 
+How to use
+
+    $geocode = new Gmap_Geocode() ;
+    $geocode->get( "12500-000" ) ;
+    $geocode->latitude;
+    $geocode->longitude;
 
 
+Tests
 
-To auto run phpunit
+Requeriments
+
+    * phpunit
+    
+    phpunit test/
+
+To auto run tests
 
 Use the ruby gem Watchr 
 
-# watchr .watchr.rb
+    watchr .watchr.rb
 
 
